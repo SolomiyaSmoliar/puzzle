@@ -107,7 +107,7 @@ def check_uniqueness_in_colors(board: list):
 
 def validate_board(board: list):
     '''
-    Checks that the playing field is ready for play.
+    Checks if the playing field is ready for play.
 
     >>> validate_board(["**** ****" ,"***1 ****", "**  3****",\
          "* 4 2****", "     9 5 ", " 6  83  *", "3   1  **", "  8  2***",\
